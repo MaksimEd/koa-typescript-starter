@@ -1,0 +1,32 @@
+{
+  "name": "tskoa",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node --extensions \".ts,.tsx\" src/index.ts",
+    "build": "set NODE_ENV=prod&&gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.0.0-rc.4",
+    "@types/koa": "^2.0.46",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "koa": "^2.5.2",
+    "r": "0.0.5",
+    "regenerator-runtime": "^0.12.1",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-rc.4",
+    "@babel/preset-typescript": "^7.0.0-rc.4",
+    "gulp-babel": "^8.0.0-beta.2"
+  }
+}
